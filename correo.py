@@ -18,5 +18,4 @@ class Correo:
                 print("Por favor, introduzca un formato correcto (xxx@xx.x)")
 
 
-print(Correo().validar())
-
+Correo().validar() # al quitar print no devuelve el valor None
