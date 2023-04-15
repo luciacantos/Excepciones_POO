@@ -7,8 +7,8 @@ class Correo:
     def validar(self):
         while True:
             correo = input("Introduce tu correo electrónico: ")
-            if re.search(".*@.*\..*", correo):
-                if self.correo_correcto == correo:
+            if re.search(".*@.*\..*", correo): # método para comprobar que los caracteres sean correctos
+                if self.correo_correcto == correo: # comprobar que las dos cadenas sean iguales
                     print("Bienvenido")
                     break
                 else:
@@ -16,5 +16,7 @@ class Correo:
                     break
             else:
                 print("Por favor, introduzca un formato correcto (xxx@xx.x)")
-                
+
+
+print(Correo().validar())
 
