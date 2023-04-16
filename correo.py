@@ -19,7 +19,7 @@ class Correo:
                         print("Cuenta bloqueada a causa de un ataque")
                         break
                 else:
-                    print("Por favor, introduzca un formato correcto (xxx@xx.x)")
+                    print("Una dirección de correo debe tener el formto xxx@xxx.xx")
 
 
 Correo().validar() # al quitar print no devuelve el valor None
