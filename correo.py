@@ -13,7 +13,7 @@ class Correo:
                 if re.search(".*@.*\..*", correo): # método para comprobar que los caracteres sean correctos
                     if self.correo_correcto == correo: # comprobar que las dos cadenas sean iguales
                         usuario = correo.split("@")[0]
-                        print("Bienvenido " + usuario)
+                        print("Bienvenid@ " + usuario.capitalize())
                         break
                     else:
                         print("Cuenta bloqueada a causa de un ataque")
