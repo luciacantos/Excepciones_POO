@@ -6,7 +6,7 @@ class Correo:
 
     def validar(self):
         while True:
-            correo = input("Introduce tu correo electrónico: ")
+            correo = input("--> ")
             if correo == "":
                 print("'' es una entrada incorrecta. Introduzca una dirección de correo.")
             else:
